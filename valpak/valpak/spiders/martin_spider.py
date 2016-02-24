@@ -64,7 +64,6 @@ class MartinSpider(Spider):
                 ] if ct
             ]
             print(clean_info_list)
-            product_dict = for
             #print(info)
         except KeyError:
             self.log('Unable to find title', level=log.WARNING)
