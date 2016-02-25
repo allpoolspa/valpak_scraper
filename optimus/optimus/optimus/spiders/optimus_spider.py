@@ -37,7 +37,7 @@ class OptimusSpider(Spider):
     # Scrapy variables
     name = 'optimus'
     allowed_domains = ['http://www.optimusparts.com/']
-    start_urls = opv.SRS_LINKS
+    start_urls = opv.ALINKS
 
 
     def __init__(self):
